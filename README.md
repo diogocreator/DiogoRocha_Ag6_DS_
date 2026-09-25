@@ -6,7 +6,7 @@ Agenda 06_Desenvolvimento de Sistemas I_ Apresentação_Introdução ao Fichári
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 ## 📌 Sobre o Projeto
-A **Calculadora de Consumo Elétrico** é uma aplicação em Python criada para ajudar usuários a estimar o consumo mensal de energia elétrica de seus eletrodomésticos, além de apresentar uma estimativa de custo mensal baseada em uma tarifa média.
+A **Calculadora de Consumo Elétrico** é uma aplicação em Python criada para ajudar usuários a estimar o consumo mensal de energia elétrica de seus eletrodomésticos e a apresentar uma estimativa de custo mensal com base em uma tarifa média.
 
 ## 🧮 Fórmula Utilizada
 O consumo mensal em quilowatts-hora (kWh) é determinado através da seguinte equação:
@@ -33,9 +33,9 @@ def calcular_consumo():
     print("=" * 40)
 
     # Entradas de dados
-    aparelho = input("Nome do aparelho (ex.: Geladeira): ").strip()
-    potencia = float(input("Potência do aparelho (em Watts): "))
-    horas_dia = float(input("Tempo médio de uso diário (em horas): "))
+    aparelho = input("Nome do aparelho eletrodoméstico:").strip()
+    potencia = float(input("Potência do aparelho (em Watts):"))
+    horas_dia = float(input("Tempo médio de uso diário (em horas):"))
 
     # Cálculo do consumo mensal em kWh
     consumo_mensal = (potencia * horas_dia * 30) / 1000
