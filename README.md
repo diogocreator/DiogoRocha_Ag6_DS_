@@ -11,7 +11,7 @@ A **Calculadora de Consumo Elétrico** é uma aplicação em Python criada para 
 ## 🧮 Fórmula Utilizada
 O consumo mensal em quilowatts-hora (kWh) é determinado através da seguinte equação:
 
-$$consumoMensal = \frac{potencia \times horasDia \times 30}{1000}$$
+$$\text{Consumo Mensal} = \frac{\text{Potência} \times \text{Horas ao dia} \times 30}{1000}$$
 
 ---
 
